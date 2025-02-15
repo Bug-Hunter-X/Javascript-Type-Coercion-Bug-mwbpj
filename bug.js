@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "1")); // Output: 11
+This is because Javascript automatically converts the number 1 to a string, resulting in string concatenation rather than numerical addition.
